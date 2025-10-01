@@ -1,6 +1,6 @@
 import random
 
-top_of_range = input("Type a number: ")
+top_of_range = int(input("Type a number: "))
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
@@ -33,3 +33,4 @@ while True:
         print("You were below the number!")
 
 print("You got it in", guesses, "guesses")
+
